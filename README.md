@@ -1,4 +1,4 @@
-# Desafio MBA Engenharia de Software com IA - Full Cycle
+# Desafio de Ingestão e Busca Semântica com IA
 
 Aplicação de RAG (Retrieval Augmented Generation) que ingere documentos PDF e permite fazer buscas semânticas com respostas geradas por IA.
 
@@ -96,17 +96,18 @@ python src/chat.py "Qual é a empresa com o maior faturamento?"
 
 2. **Análise Comparativa:**
 ```bash
-python sr/chat.py "Quantas empresas tem dourado no nome?"   ```
+python sr/chat.py "Quantas empresas tem dourado no nome?"
+```
 
 3. **Tendências e Padrões:**
-```bash
+
+``` bash
 python src/chat.py "Quais são as 3 empresas com o maior faturamento"
 ```
 
 ## Parar a aplicação
 
 Para desligar o PostgreSQL:
-
 ```bash
 docker-compose down
 ```
@@ -117,4 +118,4 @@ docker-compose down
 - `src/search.py` - Módulo de busca semântica e geração de respostas
 - `src/chat.py` - Interface CLI para fazer perguntas
 - `docker-compose.yml` - Configuração do PostgreSQL com pgvector
-- `requirements.txt` - Dependências Python
+- `requirements.txt` - Dependências Python# desafio-1-ingestao-e-busca-semantica-com-langchain-e-postgres
